@@ -17,5 +17,4 @@ public class SettingsFragment extends PreferenceFragment {
 		// The preferences will be automatically saved.
 		addPreferencesFromResource(R.xml.preferences);
 	}
-
 }

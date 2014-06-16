@@ -2,11 +2,19 @@
 <resources>
 
     <string name="app_name">AndroidPreferences</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Android Preferences Demo</string>
     <string name="hello_world">Hello world!</string>
     
     <!-- Strings related to Settings -->
     <string name="action_settings">Settings</string>
-    <string name="pref_title_show_hello_world_text">Show hello world text</string>
-
+     <string name="pref_title_welcome_text">Welcome text</string>
+     <string name="pref_summary_welcome_text">The welcome text to show in the main activity.</string>
+     <string name="pref_default_welcome_text">Hello World</string>
+     
+     <string name="pref_title_welcome_text_color">Welcome text color</string>
+     <string name="pref_summary_welcome_text_color">The color of the welcome text to show in the main activity.</string>
+     <string name="pref_default_welcome_text_color">#000000</string>
+    
+    <string name="pref_title_show_welcome_text">Show welcome text</string>
+    <string name="pref_summary_show_welcome_text">Shows the welcome text in the main activity.</string>
 </resources>

@@ -1,6 +1,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    <CheckBoxPreference
+    <EditTextPreference
+        android:key="welcome_text"
+        android:title="@string/pref_title_welcome_text"
+        android:summary="@string/pref_summary_welcome_text"
+        android:defaultValue="@string/pref_default_welcome_text" />
+     <ListPreference
+        android:key="welcome_text_color"
+        android:title="@string/pref_title_welcome_text_color" 
+        android:summary="@string/pref_summary_welcome_text_color"
+        android:defaultValue="@string/pref_default_welcome_text_color"
+        android:entries="@array/colorLabelsArray"
+        android:entryValues="@array/colorValuesArray" />
+     <CheckBoxPreference
         android:defaultValue="true"
-        android:key="show_hello_world_text"
-        android:title="@string/pref_title_show_hello_world_text" />
+        android:key="show_welcome_text"
+        android:title="@string/pref_title_show_welcome_text"
+        android:summary="@string/pref_summary_show_welcome_text" />
 </PreferenceScreen>
